@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(require('./routes'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-media-api', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/challenge-18', {
   useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
@@ -17,4 +17,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-media-ap
 // Use this to log mongo queries being executed!
 mongoose.set('debug', true);
 
-app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Connected on localhost:${PORT}`));

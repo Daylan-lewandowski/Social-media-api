@@ -1,25 +1,20 @@
 {
-  "name": "challenge-18",
+  "name": "social-media-api",
   "version": "1.0.0",
-  "description": "An API for a social media app built with Express, Mongoose, and MongoDB",
-  "main": "index.js",
+  "description": "A REST API for a social media app. Built with Express, Mongoose, and MongoDB",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daylan-lewandowski/challenge-18/tree/main"
+    "url": "git+https://github.com/Daylan-lewandowski/challenge-18.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Daylan-lewandowski/challenge-18/issues"
   },
-  "homepage": "https://github.com/Daylan-lewandowski/challenge-18#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "moment": "^2.29.0",
-    "mongoose": "^5.10.7"
-  }
+  "homepage": "https://github.com/Daylan-lewandowski/challenge-18#readme"
 }
