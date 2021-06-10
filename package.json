@@ -9,12 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daylan-lewandowski/challenge-18.git"
+    "url": "git+https://github.com/Daylan-lewandowski/social-media-api.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Daylan-lewandowski/challenge-18/issues"
+    "url": "https://github.com/Daylan-lewandowski/social-media-api/issues"
   },
-  "homepage": "https://github.com/Daylan-lewandowski/challenge-18#readme"
+  "homepage": "https://github.com/Daylan-lewandowski/social-media-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7"
+  }
 }
